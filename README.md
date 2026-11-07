@@ -172,7 +172,9 @@ npm run build
 
 ## 八、在线演示
 
-部署完成后，在这里补充实际在线演示地址。
+**在线体验：** https://quality-management-dashboard.onrender.com/
+
+**GitHub 仓库：** https://github.com/1013638073cjy-ai/quality-management-dashboard
 
 ## 九、项目说明
 
