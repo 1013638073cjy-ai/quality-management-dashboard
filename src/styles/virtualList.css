@@ -1,0 +1,50 @@
+/* 普通表格与虚拟表格共用视觉样式 */
+.performance-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+  background: #ffffff;
+}
+
+.performance-table th,
+.performance-table td {
+  padding: 12px 14px;
+  text-align: left;
+  border-bottom: 1px solid #f0f0f0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 48px;
+}
+
+.performance-table th {
+  background: #fafafa;
+  font-weight: 600;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.performance-table tbody tr:hover {
+  background-color: #f5f9ff;
+}
+
+/* 普通列表的滚动容器 */
+.normal-list-scroll {
+  height: 450px;
+  overflow: auto;
+  border: 1px solid #f0f0f0;
+}
+
+/* 检测状态 */
+.status-success {
+  color: #389e0d;
+}
+
+.status-error {
+  color: #cf1322;
+}
+
+.status-warning {
+  color: #d48806;
+}

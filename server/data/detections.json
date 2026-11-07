@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1b5b5331-b60d-4075-b4ee-d6339d7f1a87",
+    "materialName": "芯片12C",
+    "materialType": "电子元件",
+    "inspector": "陈工",
+    "date": "2026-11-07",
+    "status": "不合格",
+    "remark": ""
+  },
+  {
+    "id": "JC2026001",
+    "materialName": "钢板 A",
+    "materialType": "金属材料",
+    "inspector": "张工",
+    "date": "2026-11-01",
+    "status": "合格",
+    "remark": "检测指标正常"
+  },
+  {
+    "id": "JC2026002",
+    "materialName": "塑料外壳 B",
+    "materialType": "塑料材料",
+    "inspector": "李工",
+    "date": "2026-11-02",
+    "status": "不合格",
+    "remark": "外观存在划痕"
+  },
+  {
+    "id": "JC2026003",
+    "materialName": "电子元件 C",
+    "materialType": "电子元件",
+    "inspector": "王工",
+    "date": "2026-11-03",
+    "status": "待检测",
+    "remark": "等待检测安排"
+  },
+  {
+    "id": "JC2026004",
+    "materialName": "铝合金 D",
+    "materialType": "金属材料",
+    "inspector": "张工",
+    "date": "2026-11-04",
+    "status": "合格",
+    "remark": "尺寸符合要求"
+  },
+  {
+    "id": "JC2026005",
+    "materialName": "连接器 E",
+    "materialType": "电子元件",
+    "inspector": "李工",
+    "date": "2026-11-05",
+    "status": "合格",
+    "remark": "电气性能正常"
+  },
+  {
+    "id": "JC2026006",
+    "materialName": "包装材料 F",
+    "materialType": "包装材料",
+    "inspector": "王工",
+    "date": "2026-11-06",
+    "status": "不合格",
+    "remark": "部分包装破损"
+  }
+]
