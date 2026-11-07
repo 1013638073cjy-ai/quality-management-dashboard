@@ -1,0 +1,39 @@
+name: Frontend CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. 获取仓库代码
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2. 安装 Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: npm
+
+      # 3. 按 package-lock.json 安装依赖
+      - name: Install dependencies
+        run: npm ci
+
+      # 4. ESLint 检查
+      - name: ESLint
+        run: npm run lint
+
+      # 5. Prettier 格式检查
+      - name: Prettier
+        run: npm run format:check
+
+      # 6. TypeScript 检查 + 生产构建
+      - name: Build
+        run: npm run build
